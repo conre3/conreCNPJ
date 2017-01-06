@@ -2,7 +2,7 @@
 
 # conreCNPJ
 
-Scraper de informações de empresas cadastradas nos Conselhos Regionais de Estatística. Só funciona para as regiões 3 e 6, que são as únicas que
+Scraper de informações de empresas cadastradas e em dia com os Conselhos Regionais de Estatística. Só funciona para as regiões 3 e 6, que são as únicas que
 disponibilizam dados de CNPJ publicamente.
 
 # Utilização
