@@ -13,6 +13,11 @@
 
 #' CONRE-6 registered companies
 #'
-#' @rdname conre3_companies
+#' @format A data frame with 30 rows and 3 variables:
+#' \describe{
+#'    \item{empresa}{Name of the company.}
+#'    \item{uf}{State initials.}
+#'    \item{cnpj}{Company national id.}
+#' }
 #' @source \url{http://www.conre3.org.br/portal/profissionais-e-empresas-do-conre-3-2/}
 "conre6"
