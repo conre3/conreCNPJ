@@ -1,0 +1,22 @@
+Package: conreCNPJ
+Title: CONRE list of registered companies from CONRE sites
+Version: 0.0.1.0
+Authors@R: person("Julio", "Trecenti", email = "jtrecenti@jtrecenti.com", role = c("aut", "cre"))
+Description: Downloads CONRE list of registered companies from CONRE sites.
+Depends:
+    R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Imports: httr,
+    xml2,
+    rvest,
+    tibble,
+    janitor,
+    dplyr,
+    purrr,
+    abjutils,
+    stringr,
+    pdftools,
+    magrittr
