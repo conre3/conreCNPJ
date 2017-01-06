@@ -23,7 +23,7 @@ conre_get_cnpj <- function(region = 3) {
   } else if (region == 5) {
     stop('This region does not provide a public list with CNPJ.')
   } else if (region == 6) {
-    get_conre3_companies()
+    get_conre6_companies()
   }
 }
 
