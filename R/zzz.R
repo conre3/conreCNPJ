@@ -1,4 +1,4 @@
-globalVariables(c('%>%', '.', 'cnpj', 'uf'))
+globalVariables(c('%>%', '.', 'cnpj', 'uf', 'conre4'))
 
 #' Pipe operator
 #'

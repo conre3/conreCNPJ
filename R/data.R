@@ -21,3 +21,14 @@
 #' }
 #' @source \url{http://www.conre3.org.br/portal/profissionais-e-empresas-do-conre-3-2/}
 "conre6"
+
+#' CONRE-4 registered companies
+#'
+#' @format A data frame with 42 rows and 3 variables:
+#' \describe{
+#'    \item{empresa}{Name of the company.}
+#'    \item{uf}{State initials (not real).}
+#'    \item{cnpj}{Company national id.}
+#' }
+#' @source \url{http://www.conre4.org.br}
+"conre4"

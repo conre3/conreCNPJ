@@ -19,12 +19,25 @@ conre_get_cnpj <- function(region = 3) {
   } else if (region == 3) {
     get_conre3_companies()
   } else if (region == 4) {
-    stop('This region does not provide a public list.')
+    message('This region does not provide a public list. Using cached data.')
+    get_conre4_companies()
   } else if (region == 5) {
     stop('This region does not provide a public list with CNPJ.')
   } else if (region == 6) {
     get_conre6_companies()
   }
+}
+
+get_conre4_companies <- function() {
+  # readr::read_delim(x, '\t', col_names = FALSE) %>%
+  #   dplyr::mutate(X1 = stringr::str_trim(X1),
+  #                 X2 = stringr::str_replace_all(X2, '[^0-9]', ''),
+  #                 X2 = stringr::str_trim(X2)) %>%
+  #   dplyr::mutate(uf = 'RS') %>%
+  #   dplyr::select(empresa = X1, uf, cnpj = X2) %>%
+  #   dplyr::filter(stringr::str_length(cnpj) == 14) ->
+  utils::data("conre4")
+  conre4
 }
 
 get_conre3_companies <- function() {
